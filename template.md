@@ -13,6 +13,10 @@ Per executar:
 Exemple:
   python chaseThePair.py 10
 
+Altres idees:
+El codi s'havia realitzat originalment de forma ordenada utilitzant Python.
+Per tal d'accelerar el codi, es pot utilitzar C i la llibreria MPI (o OpenMP) per paralelitzar el codi. Primerament calculant en paralel cada llista de números, i per cada llista, que cada fil/procés busqui la seva millor solució i que el fil principal sel·leccioni els resultats finals.
+
 ## Informació
 - Group name: LoneWolves
 - Cost: O(2n)
