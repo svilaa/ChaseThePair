@@ -3,7 +3,7 @@
 ## Descripció
 Codi realitzat amb Python 2.7 utilitzant el mínim de caràcters possibles sense utilitzar funcions. S'utilitzen 242 caràcters.
 
-No hi ha cap tipus d'optimització, per exemple, si s'ha trobat chase, no cal buscar més. En aquest codi es recorren tots els valors.
+No hi ha cap tipus d'optimització, per exemple, si s'ha trobat chase, no cal buscar més. En aquest codi es recorren tots els valors. El fitxer no es tanca per estalviar caràcters.
 
 El cost del codi seria "n" quan es calculen les distàncies a chase, i "n" per trobar el mínim. Realment es podria guardar el mínim a la vegada que es calculen distàncies, però incrementaria el nombre de caràcters. Per tant, el cost és O(2n).
 
