@@ -1,0 +1,1 @@
+import sys,time as t;f=open("logs.txt","r");d=f.readline().split("-");A,B=[[int(x)for x in d[y][2:-1].split(",")]for y in[0,1]];c=int(sys.argv[1]);s=t.time();print min(A,key=lambda x:abs(x-c)),min(B,key=lambda x:abs(x-c)),'\nTime:',t.time()-s
