@@ -1,7 +1,7 @@
 # Chase The Pair Challenge by HackEPS2019
 
 ## Descripció
-Codi realitzat amb Python 2.7 utilitzant el mínim de caràcters possibles sense utilitzar funcions. S'utilitzen 242 caràcters.
+Codi realitzat amb Python 2.7 utilitzant el mínim de caràcters possibles sense utilitzar funcions. S'utilitzen 242 caràcters, menys del límit actual de 280 caràcters d'un tweet.
 
 No hi ha cap tipus d'optimització, per exemple, si s'ha trobat chase, no cal buscar més. En aquest codi es recorren tots els valors. El fitxer no es tanca per estalviar caràcters.
 
