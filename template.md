@@ -3,7 +3,7 @@
 ## Descripció
 Codi realitzat amb Python 2.7 utilitzant el mínim de caràcters possibles sense utilitzar funcions. S'utilitzen 242 caràcters, menys del límit actual de 280 caràcters d'un tweet.
 
-No hi ha cap tipus d'optimització, per exemple, si s'ha trobat chase, no cal buscar més. En aquest codi es recorren tots els valors. El fitxer no es tanca per estalviar caràcters.
+No hi ha cap tipus d'optimització, per exemple, si s'ha trobat chase, no cal buscar més. En aquest codi es recorren tots els valors. El fitxer no es tanca per estalviar caràcters. Es requereix d'un fitxer "logs.txt" proporiconat pel generador de sets.
 
 El cost del codi seria "n" quan es calculen les distàncies a chase, i "n" per trobar el mínim. Realment es podria guardar el mínim a la vegada que es calculen distàncies, però incrementaria el nombre de caràcters. Per tant, el cost és O(2n).
 
